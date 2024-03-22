@@ -16,7 +16,6 @@ public class Main {
 	}
 	
 public static void findPerfect(int n) {
-	Scanner sc = new Scanner(System.in);
 	int m = 0; int k = 0;
 	int[] arr = new int[n];
 	
@@ -35,7 +34,6 @@ public static void findPerfect(int n) {
 		}
 	}
 	else System.out.print(n+" is NOT perfect.\n");
-	sc.close();
 }
 
 }
